@@ -29,7 +29,6 @@ h1 {
   color: yellow;
   margin-top: 10px;
   border-bottom: 1px solid yellow;
-  height: 60px;
 }
 
 h2 {
@@ -39,14 +38,10 @@ h2 {
   text-decoration: underline;
 }
 
-nav {
-  margin-top: 20px;
-}
 nav ul li {
   list-style: none;
   display: inline-block;
   margin: 0 10px;
-  font-size: larger;
 }
 
 a {
@@ -75,59 +70,41 @@ footer a {
   gap: 20px;
   justify-content: center;
   padding: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .gridSection {
     grid-template-columns: repeat(2, 1fr);
   }
-  .contenedorproductos {
-    margin: 30px;
-    text-align: center;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 8px;
-    background-color: black;
-  }
-  .contenedorproductos p {
-    background-color: yellow;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
-    border-radius: 6px;
-  }
 }
-.contenedorproductos {
+.contenedorProductos {
+  margin-left: 70px;
+  margin-right: 70px;
   text-align: center;
   padding: 5px;
   border: 1px solid black;
   border-radius: 8px;
   background-color: black;
 }
-.contenedorproductos p {
+.contenedorProductos p {
   background-color: yellow;
   color: black;
   text-align: center;
   padding: 10px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   border-radius: 6px;
 }
 
-.imagenproducto {
+.imagenProducto {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
 }
 
 @media only screen and (max-width: 768px) {
-  .contenedorproductos {
+  .contenedorProductos {
     max-width: 100%;
   }
 }
@@ -135,7 +112,7 @@ footer a {
 .contenedorInicio {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 450px;
   background-image: url(../imagenes/frenteconde.jpg);
   background-size: cover;
   background-position: center;
@@ -168,7 +145,7 @@ iframe {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 0;
+  border: 0px;
 }
 
 .fondoMapa {
@@ -179,6 +156,7 @@ iframe {
 
 /* clases html contacto y form */
 .formulario {
+  max-width: 400px;
   width: 90%;
   margin: 50px auto;
   background-color: #fff;
@@ -221,66 +199,6 @@ iframe {
 .contacto {
   margin-bottom: 20px;
   margin-top: auto;
-}
-
-.fotosEventos {
-  display: flex;
-  gap: 20px;
-  margin: 20px;
-  flex-direction: column;
-  align-items: center;
-}
-
-.fotosEve {
-  width: 300px;
-  height: 300px;
-  border: 4px solid black;
-  border-radius: 8px;
-}
-
-@media only screen and (min-width: 768px) {
-  .fotosEventos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin: 30px;
-    margin-left: 50px;
-  }
-  .fotosEve {
-    width: 210px;
-    height: 250px;
-    border: 4px solid black;
-    border-radius: 8px;
-  }
-}
-@media only screen and (min-width: 1300px) {
-  .fotosEventos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin: 30px;
-    margin-left: 50px;
-  }
-  .fotosEve {
-    width: 350px;
-    height: 350px;
-    border: 4px solid black;
-    border-radius: 8px;
-  }
-}
-.IgIcono {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-}
-
-.IgIcono img {
-  width: 60px;
-  height: auto;
-  border-radius: 20%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

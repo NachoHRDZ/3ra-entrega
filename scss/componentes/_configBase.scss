@@ -22,6 +22,7 @@ h1{
     color: nth($paleta-colores , 1 );
     margin-top: 10px;
     border-bottom:  1px solid nth($paleta-colores , 1 );
+    height: 60px;
 }
 h2{
     text-align: left;
@@ -30,11 +31,13 @@ h2{
     text-decoration: underline;
 }
 nav{
+    margin-top: 20px;
     ul{
         li{
             list-style: none;
             display: inline-block;
             margin: 0 10px;
+            font-size: larger;
         }
     }
 }
